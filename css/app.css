@@ -17,6 +17,10 @@ a {
     flex-basis: calc((100% / 12) * 8);
 }
 
+.col-4 {
+    flex-basis: calc((100% / 12) * 4);
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -30,6 +34,10 @@ a {
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+
+.direction-reverse {
+    flex-direction: row-reverse;
 }
 
 .justify-between {
@@ -109,4 +117,26 @@ a {
 .hero-a {
     margin: 15px;
     font-size: 20px;
+}
+
+.text {
+    align-items: center;
+    margin-top: 50px;
+}
+
+.text > h1 {
+    font-size: 50px;
+}
+
+.text > p {
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.text-image-section {
+    padding: 100px;
+}
+
+.bg-grey {
+    background-color: #F6F6F6;
 }
