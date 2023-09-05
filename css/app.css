@@ -83,6 +83,7 @@ a {
     padding: 60px 100px;
     text-align: center;
     line-height: 30px;
+    min-height: 550px;
 }
 .hero-title {
     font-size: 60px;
@@ -92,6 +93,7 @@ a {
 .hero-p {
     font-size: 20px;
     padding: 8px;
+    margin-bottom: 25px;
 }
 
 .download {
@@ -105,5 +107,6 @@ a {
 }
 
 .hero-a {
-    margin: 10px;
+    margin: 15px;
+    font-size: 20px;
 }
