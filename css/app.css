@@ -13,9 +13,18 @@ a {
     color: currentColor;
 }
 
+.col-8 {
+    flex-basis: calc((100% / 12) * 8);
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.container-small {
+    max-width: 600px;
+    margin: o auto;
 }
 
 .row {
@@ -28,6 +37,11 @@ a {
     justify-content: space-between;
 }
 
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+
 .nav-link {
     margin: 25px;
 }
@@ -37,7 +51,7 @@ a {
 }
 
 .page-header {
-    background-color: #3161E0;
+    background-color: #255EE8;
     
 }
 
@@ -49,12 +63,47 @@ a {
     padding-bottom: 0;
 }
 
-.login {
+.btn {
     border-radius: 40px;
-    font-size: 14px;
-    padding: 7px 16px;
-    line-height: 24px;
     max-height: 40px;
-    background-color: white;
+    padding: 20px;
+}
+
+.login {
+    padding: 7px 16px;
+    font-size: 14px;
+    line-height: 24px;
     margin-top: 15px;
+    background-color: white;
+}
+
+.hero {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    padding: 60px 100px;
+    text-align: center;
+    line-height: 30px;
+}
+.hero-title {
+    font-size: 60px;
+    padding: 50px;
+}
+
+.hero-p {
+    font-size: 20px;
+    padding: 8px;
+}
+
+.download {
+    background-color: white;
+    color: black;
+    margin: 50px;
+}
+
+.desktop {
+    background-color: black;
+}
+
+.hero-a {
+    margin: 10px;
 }
