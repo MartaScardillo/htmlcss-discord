@@ -33,7 +33,7 @@ a {
 }
 
 .logo {
-    
+    margin-top: 20px;
 }
 
 .page-header {
@@ -56,4 +56,5 @@ a {
     line-height: 24px;
     max-height: 40px;
     background-color: white;
+    margin-top: 15px;
 }
